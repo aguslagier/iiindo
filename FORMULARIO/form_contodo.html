@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servicios iiindo 3D</title>
+    <!-- font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="stylesformulario.css">
+</head>
+<body>
+    <h2 id="articlesectionheading"><ins> <a href="D:\agus-2021\FULLSTACK\drive-download-20210505T213312Z-001\fullstack- tp1-agus\agus proyecto\IIINDO 3d.html">Ir a inicio</a> <!--son enlaces--></ins></h2> <!--Aca nada-->
+    <br>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.png" alt="" class="nav-brand">
+    <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="nickname">Sobrenombre:</label><input type="text" name="nickname" id="nickname">
+            <label for="firstname">Nombre: </label><input type="text" name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..."> <br><br>
+            <label for="lastname">Apellido:</label><input type="text" name="lastname"  id="lastname"   placeholder="Ingrese su apellido aqui..."> <br><br>
+            <label for="street">Direccion:</label><input type="text"  name="address"   id="address"    placeholder="Ingrese su dirección aqui..."> <br><br>
+            <label for="number">Numero:</label><input type="number"   name="number"    id="number"     placeholder="Ingrese el numero..">
+            <br><br>
+            <label for="city">Ciudad:</label>           <input type="text"     name="city"      id="city"     value="C.A.B.A."> <br><br>
+            <label for="zipcode">Código Postal:</label> <input type="text"     name="zipcode"   id="zipcode"  placeholder="Ingrese su codigo postal aqui..."> <br> <br>
+            <label for="telefono">Telefono:</label>     <input type="tel"      name="telefono"  id="telefono" placeholder="ingrese su telefono aqui ...."> <br><br>
+            <label for="BirthDate">Fecha Nac.:</label>  <input type="date"     name="birthdate" id="birthdate" > <br><br>
+            <label for="clave">Clave: </label>          <input type="password" name="clave"     id="clave"     > <br><br>
+            <label for="mail">Mail: </label>            <input type="email"    name="mail"      id="mail"      > <br><br>
+            <label for="url">Link del TP 3: </label>    <input type="url"      name="url"       id="url"       > <br><br>
+
+            <label for="gender">Genero: (Radio)</label> 
+                <input type="radio" name="gender" value="Hombre" id="hombre" checked>Hombre
+                <input type="radio" name="gender" value="Mujer"  id="mujer" >Mujer
+                <input type="radio" name="gender" value="Otro"   id="otro"  >Otro
+                <input type="radio" name="gender" value="prueba" id="prueba">
+            <label for="conocimientos"></label><p> Conocimientos previos: (checkbox)
+                <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+                <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                <input type="checkbox" name="conocimientos" value="Typescript"> Typescript
+                <input type="checkbox" name="conocimientos" value="Angular"> Angular
+                <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+                <input type="checkbox" name="conocimientos" value="Python"> Python
+                <input type="checkbox" name="conocimientos" value="Django"> Django
+        
+
+            <label for="estudios">Estudios: (Select)</label>
+            <select id="estudios" name="estudios">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+            <br>
+
+            <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="10" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+    </div> 
+</body>
+</html>
